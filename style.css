@@ -1,5 +1,6 @@
 body {
     font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -16,9 +17,23 @@ section {
 
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
 }
 
 .half-width img {
     width: 90%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
